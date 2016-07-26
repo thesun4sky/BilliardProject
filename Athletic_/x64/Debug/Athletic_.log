@@ -1,0 +1,82 @@
+﻿빌드 시작: 2016-05-10 오후 4:26:02
+     1>2 노드의 "C:\Users\heewonKye\Desktop\Athletic_(16.05.03)\Athletic_\Athletic_.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "AlwaysCreate"이(가) 지정되었기 때문에 "x64\Debug\Athletic_.unsuccessfulbuild"을(를) 만들고 있습니다.
+       AddCudaCompileDeps:
+       해당 입력 파일과 비교하여 출력 파일이 모두 최신 파일이므로 "AddCudaCompileDeps" 대상을 건너뜁니다.
+       AddCudaCompileDeps:
+       해당 입력 파일과 비교하여 출력 파일이 모두 최신 파일이므로 "AddCudaCompileDeps" 대상을 건너뜁니다.
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_WINDOWS /D_DEBUG /D_UNICODE /DUNICODE /D_AFXDLL /Iinclude /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c C:\Users\heewonKye\Desktop\Athletic_(16.05.03)\Athletic_\render_kernel.cu 
+       AddCudaCompilePropsDeps:
+       해당 입력 파일과 비교하여 출력 파일이 모두 최신 파일이므로 "AddCudaCompilePropsDeps" 대상을 건너뜁니다.
+       AddCudaCompilePropsDeps:
+       해당 입력 파일과 비교하여 출력 파일이 모두 최신 파일이므로 "AddCudaCompilePropsDeps" 대상을 건너뜁니다.
+       AddCudaCompilePropsDeps:
+       해당 입력 파일과 비교하여 출력 파일이 모두 최신 파일이므로 "AddCudaCompilePropsDeps" 대상을 건너뜁니다.
+       CudaBuild:
+       해당 입력 파일과 비교하여 출력 파일이 모두 최신 파일이므로 "CudaBuild" 대상을 건너뜁니다.
+       CudaBuild:
+       해당 입력 파일과 비교하여 출력 파일이 모두 최신 파일이므로 "CudaBuild" 대상을 건너뜁니다.
+       CudaBuild:
+         Compiling CUDA source file render_kernel.cu...
+         cmd.exe /C "C:\Users\heewonKye\AppData\Local\Temp\tmp86e115fde01e4deabd0661cd1e66fb25.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -Iinclude -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -D_WINDOWS -D_DEBUG -D_UNICODE -DUNICODE -D_AFXDLL -Xcompiler "/EHsc /W0 /nologo /Od /Zi /RTC1 /MTd " -o x64\Debug\render_kernel.cu.obj "C:\Users\heewonKye\Desktop\Athletic_(16.05.03)\Athletic_\render_kernel.cu"
+         
+         C:\Users\heewonKye\Desktop\Athletic_(16.05.03)\Athletic_>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64"  -Iinclude -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -D_WINDOWS -D_DEBUG -D_UNICODE -DUNICODE -D_AFXDLL -Xcompiler "/EHsc /W0 /nologo /Od /Zi /RTC1 /MTd " -o x64\Debug\render_kernel.cu.obj "C:\Users\heewonKye\Desktop\Athletic_(16.05.03)\Athletic_\render_kernel.cu" 
+     1>C:/Users/heewonKye/Desktop/Athletic_(16.05.03)/Athletic_/render_kernel.cu(663): warning : variable "localShading" was declared but never referenced
+         
+     1>C:/Users/heewonKye/Desktop/Athletic_(16.05.03)/Athletic_/render_kernel.cu(687): warning : variable "shading" was declared but never referenced
+         
+     1>C:/Users/heewonKye/Desktop/Athletic_(16.05.03)/Athletic_/render_kernel.cu(774): warning : variable "ret" was set but never used
+         
+     1>C:/Users/heewonKye/Desktop/Athletic_(16.05.03)/Athletic_/render_kernel.cu(11): warning : variable "PI" was declared but never referenced
+         
+     1>C:/Users/heewonKye/Desktop/Athletic_(16.05.03)/Athletic_/render_kernel.cu(663): warning : variable "localShading" was declared but never referenced
+         
+     1>C:/Users/heewonKye/Desktop/Athletic_(16.05.03)/Athletic_/render_kernel.cu(687): warning : variable "shading" was declared but never referenced
+         
+     1>C:/Users/heewonKye/Desktop/Athletic_(16.05.03)/Athletic_/render_kernel.cu(774): warning : variable "ret" was set but never used
+         
+     1>C:/Users/heewonKye/Desktop/Athletic_(16.05.03)/Athletic_/render_kernel.cu(11): warning : variable "PI" was declared but never referenced
+         
+         render_kernel.cu
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         모든 출력이 최신 상태입니다.
+       ResourceCompile:
+         모든 출력이 최신 상태입니다.
+       ManifestResourceCompile:
+         모든 출력이 최신 상태입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"bin\debug\Athletic_.exe" /INCREMENTAL /NOLOGO /LIBPATH:lib\debug /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\x64" vtkCommon.lib vtkDICOMParser.lib vtkexoIIc.lib vtkexpat.lib vtkFiltering.lib vtkfreetype.lib vtkftgl.lib vtkGenericFiltering.lib vtkGraphics.lib vtkHybrid.lib vtkImaging.lib vtkIO.lib vtkjpeg.lib vtkNetCDF.lib vtkpng.lib vtkRendering.lib vtksys.lib vtktiff.lib vtkVolumeRendering.lib vtkWidgets.lib vtkzlib.lib opengl32.lib glu32.lib d3dx9.lib cudart_static.lib /NODEFAULTLIB:libcmtd.lib /MANIFEST /ManifestFile:"x64\Debug\Athletic_.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\heewonKye\Desktop\Athletic_(16.05.03)\Athletic_\bin\debug\Athletic_.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\debug\Athletic_.lib" /MACHINE:X64 x64\Debug\volProcessing_kernel.cu.obj
+         x64\Debug\makeAverageSigma_kernel.cu.obj
+         x64\Debug\render_kernel.cu.obj
+         x64\Debug\Athletic_.res
+         x64\Debug\Athletic_.exe.embed.manifest.res
+         x64\Debug\Athletic_.obj
+         x64\Debug\Athletic_Doc.obj
+         x64\Debug\Athletic_View.obj
+         x64\Debug\ChildFrm.obj
+         x64\Debug\Cpu_VR.obj
+         x64\Debug\Gpu_VR.obj
+         x64\Debug\MainFrm.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\TFManager.obj
+         x64\Debug\Volume.obj
+            bin\debug\Athletic_.lib 라이브러리 및 bin\debug\Athletic_.exp 개체를 생성하고 있습니다.
+         Athletic_.vcxproj -> C:\Users\heewonKye\Desktop\Athletic_(16.05.03)\Athletic_\bin\debug\Athletic_.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"x64\Debug\Athletic_.exe.embed.manifest" /manifest x64\Debug\Athletic_.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         모든 출력이 최신 상태입니다.
+       LinkEmbedManifest:
+         모든 출력이 최신 상태입니다.
+         Athletic_.vcxproj -> C:\Users\heewonKye\Desktop\Athletic_(16.05.03)\Athletic_\bin\debug\Athletic_.exe
+       FinalizeBuildStatus:
+         "x64\Debug\Athletic_.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "x64\Debug\Athletic_.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\Users\heewonKye\Desktop\Athletic_(16.05.03)\Athletic_\Athletic_.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:08.50
